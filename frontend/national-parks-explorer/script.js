@@ -127,6 +127,7 @@
     });
   }
 
+
   function selectPark(id) {
     const card = document.querySelector(`.park-card[data-id="${id}"]`);
     if (!card) return;

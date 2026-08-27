@@ -48,7 +48,23 @@ const STATIC_ASSETS_TO_PRECACHE = [
   './quit-india-movement-explorer/index.html',
   './quit-india-movement-explorer/style.css',
   './quit-india-movement-explorer/script.js',
-  './quit-india-movement-explorer/assets/august-kranti-maidan-hd.jpg'
+  './quit-india-movement-explorer/assets/august-kranti-maidan-hd.jpg',
+  './underground-resistance-explorer/index.html',
+  './underground-resistance-explorer/style.css',
+  './underground-resistance-explorer/script.js',
+  './telangana-struggle-explorer/index.html',
+  './telangana-struggle-explorer/style.css',
+  './telangana-struggle-explorer/script.js',
+  './tebhaga-movement-explorer/index.html',
+  './tebhaga-movement-explorer/style.css',
+  './tebhaga-movement-explorer/script.js',
+  './tebhaga-movement-explorer/assets/hero-bg.jpg',
+  './calcutta-1946-crisis-explorer/index.html',
+  './calcutta-1946-crisis-explorer/style.css',
+  './calcutta-1946-crisis-explorer/script.js',
+  './noakhali-peace-mission-explorer/index.html',
+  './noakhali-peace-mission-explorer/style.css',
+  './noakhali-peace-mission-explorer/script.js'
 ];
 
 // Max items allowed in dynamic caches to prevent storage overflow

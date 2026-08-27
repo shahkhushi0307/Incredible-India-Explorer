@@ -208,12 +208,24 @@ export const freedomTimeline = [
     location: "New Delhi",
     keyLeaders: ["Lord Pethick-Lawrence", "Sir Stafford Cripps", "A. V. Alexander", "Mahatma Gandhi", "Muhammad Ali Jinnah"],
     description: "A three-member British Cabinet delegation proposed a three-tier federal structure to keep India united, sparking negotiations that ultimately broke down over compulsory provincial grouping.",
-    historicalImpact: "The plan's collapse and the ensuing Direct Action Day violence made Partition all but inevitable within a year.",
+historicalImpact: "The plan's collapse and the ensuing Direct Action Day violence made Partition all but inevitable within a year.",
     explorerLink: "../cabinet-mission-plan-explorer/index.html"
   },
   {
-    id: "evt-1947-independence",    year: 1947,
-    date: "August 15, 1947",
+    id: "evt-1947-mountbatten-plan",
+    year: 1947,
+    date: "June 3, 1947",
+    title: "Mountbatten Plan (3 June Plan)",
+    movement: "Political Negotiations",
+    phase: "Final Push & Independence (1940–1947)",
+    location: "New Delhi",
+    keyLeaders: ["Lord Mountbatten", "Jawaharlal Nehru", "Muhammad Ali Jinnah", "Baldev Singh"],
+    description: "Viceroy Lord Mountbatten announced the final plan to partition British India into India and Pakistan, advancing the transfer of power from June 1948 to 15 August 1947.",
+    historicalImpact: "Set the legal and political framework for the Indian Independence Act 1947, the Radcliffe Boundary Commission, and the transfer of power on 15 August 1947.",
+    explorerLink: "../mountbatten-plan-explorer/index.html"
+  },
+  {
+    id: "evt-1947-independence",    year: 1947,    date: "August 15, 1947",
     title: "Indian Independence & 'Tryst with Destiny'",
     movement: "Civil Disobedience",
     phase: "Final Push & Independence (1940–1947)",
@@ -754,7 +766,7 @@ export const freedomMapEvents = [
   { id: "m-1945-delhi", title: "Red Fort INA Trials", lat: 28.6, lng: 77.2, state: "delhi", year: 1945, movement: "INA", category: "Protest", leaders: "Shah Nawaz Khan, Prem Sahgal, Gurbaksh Singh Dhillon", brief: "Court-martial of INA officers sparked public outrage across India." },
   { id: "m-1946-bombay", title: "Royal Indian Navy Mutiny", lat: 19.0, lng: 72.8, state: "maharashtra", year: 1946, movement: "INA", category: "Protest", leaders: "M.S. Khan, Madan Singh", brief: "Naval ratings mutinied, proving colonial armed forces would no longer enforce rule." },
   { id: "m-1946-telangana", title: "Telangana Armed Struggle", lat: 17.4, lng: 78.5, state: "telangana", year: 1946, movement: "INA", category: "Armed Struggle", leaders: "Srirama Reddy, Baba Amte", brief: "Peasant armed struggle against feudal landlords supported by the Communist Party." },
-  { id: "m-1947-delhi", title: "Indian Independence (Tryst with Destiny)", lat: 28.6, lng: 77.2, state: "delhi", year: 1947, movement: "Civil Disobedience", category: "Political", leaders: "Jawaharlal Nehru, Mahatma Gandhi, Sardar Patel, B.R. Ambedkar", brief: "India attained independence, delivering Tryst with Destiny speech." }
+  { id: "m-1947-delhi", title: "Indian Independence (Tryst with Destiny)", lat: 28.6, lng: 77.2, state: "delhi", year: 1947, movement: "Civil Disobedience", category: "Political", leaders: "Jawaharlal Nehru, Mahatma Gandhi, Sardar Patel, B.R. Ambedkar", brief: "India attained independence, delivering Tryst with Destiny speech.", explorerLink: "../independence-partition-1947-explorer/index.html" }
 ];
 
 /* Helper Query Functions */
